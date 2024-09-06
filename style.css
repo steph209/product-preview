@@ -24,23 +24,24 @@ body {
 
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 
-    /* height: 100svh; */
+    height: 100svh;
   }
 
   main {
     background-color: hsl(0, 0%, 100%);
 
-    width: 100%;
-    padding: 40px;
+    width: 300px;
+    /* padding: 40px; */
   }
 
   picture {
-    background-color: red;
+    /* background-color: red; */
     display: block;
 
     height: 300px;
+    padding-bottom: 16px;
 
     overflow: hidden;
   }
