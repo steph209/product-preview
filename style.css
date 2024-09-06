@@ -112,21 +112,33 @@ body {
 button {
   font-family: "Montserrat",Arial, Helvetica, sans-serif;
   font-size: 14px;
-}
-
-.btn {
   background-color: hsl(158, 36%, 37%);
   color: white;
 
-  /* position: fixed;
-  bottom: 16px;
-  left: 16px;
-  right: 16px; */
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
   border-style: none;
   box-shadow: none;
   text-decoration: none;
   border-radius: 5px;
 
   padding: 10px 16px;
+}
+
+.btn picture {
+  display: block;
+  /* background-color: red; */
+  
+  /* overflow: hidden; */
+
+  padding-right: 10px;
+}
+
+.btn img {
+  width: 15px;
+  
+  object-fit: cover;
+  object-position: center;
 }
