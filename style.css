@@ -114,6 +114,7 @@ button {
   font-size: 14px;
   background-color: hsl(158, 36%, 37%);
   color: white;
+  font-weight: bold;
 
   display: flex;
   flex-direction: row;
@@ -122,16 +123,26 @@ button {
   border-style: none;
   box-shadow: none;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
 
-  padding: 10px 16px;
+  padding: 15px 90px;
+  /* padding-left: 90px; */
   width: 100%;
 }
 
 button img {
-  width: 15px;
+  /* background-color: red; */
+
+  width: 18px;
   height: auto;
   
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: blue;
+  }
+  
 }
