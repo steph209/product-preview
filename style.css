@@ -129,29 +129,45 @@ button {
   width: 100%;
 }
 
-button img {
-  width: 18px;
-  height: auto;
-  
-  object-fit: cover;
-  object-position: center;
-}
+  button img {
+    width: 18px;
+    height: auto;
+    
+    object-fit: cover;
+    object-position: center;
+  }
+
+/* =============================================================================
+#DESKTOPSCREEN
+============================================================================= */
 
 #mobile-img {display:block;}
 #desktop-img {display:none}
 
 @media screen and (min-width: 800px) {
-  #mobile-img {display: none;}
-  #desktop-img {display: block;}
+  #mobile-img {
+    display: none;
+  }
+  
+  #desktop-img {
+    display: block;
+  }
+
+  .perfume-bottle {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
   
   body {
     display: flex;
-    
+
   }
   
   main {
+    display: flex;
+
     max-width: 600px;
-    width: 70%;
+    width: 60%;
     height: auto;
   }
 }
