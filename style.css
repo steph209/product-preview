@@ -168,50 +168,50 @@ button {
 
   }
   
-  main {
-    display: flex;
+    main {
+      display: flex;
 
-    max-width: 560px;
-    width: 70%;
-    height: auto;
+      max-width: 560px;
+      width: 70%;
+      height: auto;
+    }
+
+    .perfume-details {
+      width: 50%;
+      padding: 30px;
+    }
+
+    h3 {
+      padding-bottom: 20px;
+    }
+
+    .perfume-name {
+      padding-bottom: 30px;
+    }
+
+    .description {
+      padding-bottom: 30px;
+    }
+
+    .prices {
+      padding-bottom: 30px;
+    }
+
+    button {
+      position: relative;
+
+      /* bottom: unset;
+      left: unset;
+      right: unset; */
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 10px;
+    }
+
+    button img {
+      /* margin-right: 10px; */
+    }
   }
-
-  .perfume-details {
-    width: 50%;
-    padding: 30px;
-  }
-
-  h3 {
-    padding-bottom: 20px;
-  }
-
-  .perfume-name {
-    padding-bottom: 30px;
-  }
-
-  .description {
-    padding-bottom: 30px;
-  }
-
-  .prices {
-    padding-bottom: 30px;
-  }
-
-  button {
-    position: relative;
-
-    /* bottom: unset;
-    left: unset;
-    right: unset; */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 10px;
-  }
-
-  button img {
-    /* margin-right: 10px; */
-  }
-}
